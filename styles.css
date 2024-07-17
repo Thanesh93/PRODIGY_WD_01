@@ -1,0 +1,64 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  margin: 15px;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:gray;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+.content {
+  padding-top: 60px; /* Space for the fixed navbar */
+}
+
+section {
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+#home {
+  background-color: #f4a261; /* Home - Orange */
+}
+
+#about {
+  background-color: #2a9d8f; /* About - Teal */
+}
+
+#services {
+  background-color: #e76f51; /* Services - Red */
+}
+
+#contact {
+  background-color: #264653; /* Contact - Dark Blue */
+}
